@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_announcement_black_24dp"
+            android:title="Notice Board" />
+
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Event" />
+
+        <item
+            android:id="@+id/nav_member"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Member" />
+
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/ic_description_black_24dp"
+            android:title="Blog" />
+
+
+
+    </group>
+
+</menu>
